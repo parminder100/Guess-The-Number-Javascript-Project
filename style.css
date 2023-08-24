@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+p,h1,h2,h3,h4,h5,h6,ul{
+    margin:0px;
+}
+body{
+    font-family: 'Press Start 2P', cursive !important;
+    color: #eee !important;
+}
+/* Header Start */
+header{
+    padding:20px;
+}
+.again-btn{
+    border: none;
+    background-color: #eee;
+    color: #222;
+    font-size: 30px;
+    font-family: inherit;
+    padding: 10px 30px;
+}
+/* Header End */
+
+/* Game Section Start */
+.game-section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.guess-heading{
+    margin-bottom: 30px;
+}
+.guess-number{
+    font-size: 80px;
+    text-align: center;
+    display: inline-block;
+    width: 180px;
+    background-color: #fff;
+    color: #000;
+}
+::placeholder {
+    font-size: 16px;
+}
+/* Game Section End */
+
+/* Game Score Section Start */
+.guess-input{
+    background: none;
+    width: 230px;
+    padding: 10px;
+    text-align: center;
+    font-size: 67px;
+    color: #fff;
+    border: 4px solid #eee;
+    margin-bottom: 30px;
+    display: block;
+}
+.check-btn{
+    padding: 17px 30px;
+    border:none;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.start-guessing{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.game-score{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+/* Game Score Section End */
+
+
+
+/* Media Queries Start */
+@media (max-width: 575.98px) {
+    .container .right-col{
+        margin-top: 20px;
+        text-align: center !important;
+    }
+    .right-col p{
+        font-size: 14px;
+    }
+    .start-guessing{
+        margin-top: 40px;
+    }
+    .guess-input{
+        display: unset;
+    }
+    .number-input{
+        text-align: center;
+    }
+    .game-score-section{
+        padding-bottom: 50px;
+    }
+    .again-btn{
+        font-size: 16px;
+    }
+    .left-col{
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .game-score-section{
+        padding-bottom: 50px;
+    }
+    .right-col p{
+        font-size: 11px;
+    }
+    .again-btn{
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .again-btn{
+        font-size: 25px;
+    }
+}
+/* Media Queries End */
